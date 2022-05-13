@@ -10,4 +10,6 @@
 ///////////////////////////////////////////////////////////////////////////////
 #include "Shape.h"
 
-double Shape::compute_are() {}
+double Shape::compute_area() {
+    return length * width;
+}

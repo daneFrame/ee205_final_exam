@@ -11,8 +11,9 @@
 #include "Square.h"
 
 double Square::getSide() {
-    return 0;
+    return length;
 }
 
-double Square::squareConstructor(double newSide) {
+double Square::mySquare(double newSide) {
+return newSide * newSide;
 }

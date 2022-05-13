@@ -1,4 +1,14 @@
 // Main for Classes
+
+#include <stdio.h>
+#include <iostream>
+
+#include "Square.h"
+#include "Shape.h"
+#include "Rectangle.h"
+
+using namespace std;
+
 int main() {
     std::cout << "Hello, World!" << std::endl;
 

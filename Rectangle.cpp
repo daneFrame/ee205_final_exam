@@ -8,11 +8,14 @@
 /// @author Dane Sears <dsears@hawaii.edu>
 /// @date   DAY_MON_YEAR
 ///////////////////////////////////////////////////////////////////////////////
+#include <stdexcept>
 #include "Rectangle.h"
 
-double Rectangle::constructor(double newLength, double newWidth) {
+using namespace std;
+
+double Rectangle::myRectangle(double newLength, double newWidth) {
     if(newLength <= 0 || newWidth <= 0){
-        throw std::invalid_argument("length and width must be  > 0");
+        throw invalid_argument("length and width must be  > 0");
         return 0;
     }
     return 0;

@@ -13,11 +13,11 @@
 class Rectangle : public Shape{
 
 protected:
-    double length;
-    double width;
+    double length = 0;
+    double width = 0;
 
 public:
-   double constructor(double newLength, double newWidth);
+   double myRectangle(double newLength, double newWidth);
    double getWidth();
    double getLength();
 

@@ -13,6 +13,6 @@
 class Square : public Rectangle {
 
 public:
-    virtual double squareConstructor(double newSide);
+    virtual double mySquare(double newSide);
     double getSide();
 };

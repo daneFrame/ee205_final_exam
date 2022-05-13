@@ -15,7 +15,7 @@
 class Shape {
 
 public:
-    virtual double compute_are();
+    virtual double compute_area();
 
 };
 
